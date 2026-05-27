@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'NunitoSans-ExtraBold';
+  src: url('./assets/fonts/NunitoSans-ExtraBold.woff2');
+}
+@font-face {
+  font-family: 'NunitoSans-Light';
+  src: url('./assets/fonts/NunitoSans-Light.woff2');
+}
+@font-face {
+  font-family: 'NunitoSans-Regular';
+  src: url('./assets/fonts/NunitoSans-Regular.woff2');
+}
+@font-face {
+  font-family: 'NunitoSans-SemiBold';
+  src: url('./assets/fonts/NunitoSans-SemiBold.woff2');
+}
+
 body{
-  background-color: rgb(65, 65, 69);
+  background-color: #202C36;
   color: white;
 }
 
