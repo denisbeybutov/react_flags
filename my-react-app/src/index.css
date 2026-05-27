@@ -15,6 +15,17 @@
   src: url('./assets/fonts/NunitoSans-SemiBold.woff2');
 }
 
+:root {
+  --color-text: white;
+  --header-color: #2B3844;
+  --border-radius: 5px;
+  --button-hover: rgb(152, 152, 152,0.3);
+}
+
+ul,ol,li{
+  list-style-type: none;
+}
+
 body{
   background-color: #202C36;
   color: white;

@@ -1,0 +1,58 @@
+.filter {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;    
+}
+
+.filter__button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    color: var(--color-text);
+    background-color: var(--header-color);
+    cursor: pointer;
+    width: 200px;
+    border-radius: var(--border-radius);
+    font-family: 'NunitoSans-Regular';
+    font-size: 12px;
+}
+
+.filter__button:hover {
+    background-color: var(--button-hover);
+}
+
+.filter__list {
+    display: flex;
+    flex-direction: column;    
+    width: 200px;
+    background-color: var(--header-color);
+    border-radius: var(--border-radius);    
+    overflow: hidden;
+}
+
+.filter__item {
+    
+    font-family: 'NunitoSans-Regular';
+    font-size: 12px;
+    cursor: pointer;
+    padding: 6px 24px;
+}
+
+.filter__item:first-child {
+    padding-top: 12px;
+}
+
+.filter__item:last-child {
+    padding-bottom: 12px;
+}
+
+.filter__item:hover {
+    background-color: var(--button-hover);
+}
+
+.hidden {
+    display: none;
+}
