@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.flag__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 5% 30px; 
+}
+
+.search-and-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media(min-width: 620px) {
+    .search-and-filter {
+        
+        flex-direction: row;
+        gap: 20px;
+        padding: 0 5%;
+        justify-content: space-between;
+    }
+}

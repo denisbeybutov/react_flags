@@ -1,0 +1,39 @@
+.form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--header-color);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 24px;
+    border-radius:var(--border-radius);
+    
+}
+
+
+
+
+
+.form__input {
+    background-color: transparent;
+    border: none;
+    color: var(--color-text);
+    outline: none;
+    font-family: 'NunitoSans-Regular';
+    width: 90%;
+    font-size: 12px;
+}
+
+.form__input::placeholder {
+    color: var(--color-text);
+    font-family: 'NunitoSans-Regular';
+    opacity: .5;
+}
+
+@media(min-width: 620px) {
+    .form {
+        width: 60%;
+        margin: 0;
+    }
+}
