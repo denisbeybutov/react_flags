@@ -1,0 +1,50 @@
+.flag {
+    width: var(--flag-width);
+    margin: 0 auto;
+    background-color: var(--header-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    color: var(--color-text);
+    text-align: left;
+}
+
+.flag:hover {
+    background-color: var(--button-hover);
+}
+
+.flag__image {
+    width: var(--flag-width);
+}
+
+.flag__description {
+    padding: 25px 0 45px 25px;
+}
+
+.flag__name {
+    font-family: 'NunitoSans-SemiBold';
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.flag__population,
+.flag__region,
+.flag__capital {
+    display: flex;
+    gap: 5px;
+}
+
+.population__population,
+.region__region,
+.capital__capital {
+    font-family: 'NunitoSans-Regular';
+    font-size: 14px;    
+}
+
+.population__count,
+.region__name,
+.capital__name {
+    font-family: 'NunitoSans-Light';
+    font-size: 14px;
+}

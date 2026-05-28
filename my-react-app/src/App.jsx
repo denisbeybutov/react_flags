@@ -6,6 +6,8 @@ import './App.css'
 import Header from './header/header'
 import Search from './search/search'
 import Filter from './filter/filter'
+import Flag from './flag/flag'
+import FLAGS from './flagsData.js'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,7 @@ function App() {
       <Search/>
       <Filter/>
       {/* список флагов */}
+      <Flag country = "France"/>
     </div>
   )
 }

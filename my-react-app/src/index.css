@@ -20,6 +20,7 @@
   --header-color: #2B3844;
   --border-radius: 5px;
   --button-hover: rgb(152, 152, 152,0.3);
+  --flag-width: 265px;
 }
 
 ul,ol,li{
