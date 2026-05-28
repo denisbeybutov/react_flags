@@ -25,7 +25,7 @@ export default function Flag(props) {
                 <h2 className="flag__name">{country}</h2>
                 <div className="flag__population population">
                     <h3 className="population__population">Population:</h3>
-                    <p className="population__count">{population}</p>
+                    <p className="population__count">{population.toLocaleString()}</p>
                 </div>
                 <div className="flag__region region">
                     <h3 className="region__region">Region: </h3>

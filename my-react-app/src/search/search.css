@@ -13,6 +13,8 @@
 
 
 
+
+
 .form__input {
     background-color: transparent;
     border: none;
@@ -27,4 +29,11 @@
     color: var(--color-text);
     font-family: 'NunitoSans-Regular';
     opacity: .5;
+}
+
+@media(min-width: 620px) {
+    .form {
+        width: 60%;
+        margin: 0;
+    }
 }

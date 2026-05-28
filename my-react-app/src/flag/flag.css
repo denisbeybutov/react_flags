@@ -1,5 +1,5 @@
 .flag {
-    width: var(--flag-width);
+    width: var(--flag-width);    
     margin: 0 auto;
     background-color: var(--header-color);
     border-radius: var(--border-radius);
@@ -16,9 +16,14 @@
 
 .flag__image {
     width: var(--flag-width);
+    height: 160px;
+    object-fit: cover;
 }
 
 .flag__description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding: 25px 0 45px 25px;
 }
 

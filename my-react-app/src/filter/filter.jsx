@@ -1,11 +1,15 @@
 import './filter.css'
 import ExpandMore from '../assets/expand-more.svg'
+import FLAGS from '../flagsData';
+import Flag from '../flag/flag';
 
 export default function Filter() {
     function toggleMenu() {        
         const filetList = document.querySelector('.filter__list');
         filetList.classList.toggle('hidden');
     }
+
+    
     return (
         <div className="filter">
             <button onClick={toggleMenu} className="filter__button">

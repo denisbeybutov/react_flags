@@ -10,17 +10,27 @@ import Flag from './flag/flag'
 import FLAGS from './flagsData.js'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)  
 
   return (
     <div className='page'>     
       {/* компонент шапка */}
       <Header/>
       {/* компонент поиск и фильтр */}
-      <Search/>
-      <Filter/>
+      <div className="search-and-filter">
+        <Search/>
+        <Filter/>
+      </div>
+      
       {/* список флагов */}
-      <Flag country = "France"/>
+      <div className="flag__list">
+        {
+          FLAGS.map((flag)=>{
+            return <Flag country = {flag.name} key = {flag.name}/>
+          })
+        }       
+      </div>      
+           
     </div>
   )
 }
